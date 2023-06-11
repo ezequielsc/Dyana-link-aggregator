@@ -1,0 +1,80 @@
+*{
+    margin: 1;
+    padding: 1;
+    box-sizing: 360px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(176, 145, 238)
+}
+body *{
+    color:white;
+    font-weight: 700;
+}
+#container{
+    height: 712px;
+    width: 360px;
+    background-image: url(/imagens/massagem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 56px;
+    border-radius: 50px;
+    box-shadow:  8px 8px 16px #7b26ac,
+                -8px -8px 16px #8123b8;
+}
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+#profile img{
+    margin-top: -35px;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow:  10px 10px 10px #8123b8;
+}
+#profile img:hover{
+    scale: 1.1;
+    transition: 70ms;
+}
+#textos{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgba(176, 145, 238, 0.726);
+    box-shadow:  8px 8px 0px #8123b8,
+    -5px -5px 0px #dbadd1bb;
+}
+h2{
+    margin-top: 30px;
+}
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: -5px;
+}
+
+ul{
+    list-style: none;
+    width: 300px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: -18px;
+    background-color: rgba(176, 145, 238, 0.486);
+    border-radius: 50px;
+    box-shadow:  8px 8px 0px #8123b8,
+    -5px -5px 0px #dbadd1bb;
+}
+ul li a:hover{
+    box-shadow: inset 5px 5px 0px#8123b8, 
+            inset -5px -5px 0px  #dbadd1bb;
+}
