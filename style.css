@@ -16,7 +16,7 @@ body *{
 #container{
     height: 712px;
     width: 360px;
-    background-image: url="//imagens/massagem.jpg";
+    background-image: url("/imagens/massagem.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
